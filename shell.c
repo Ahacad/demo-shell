@@ -27,7 +27,7 @@ int sh_help(char **args) {
     for (i = 0; i < sh_num_builtins(); i++) {
         printf("  %s\n", builtin_str[i]);
     }
-    printf("use man for detailed information");
+    printf("use man for detailed information\n");
     return 1;
 }
 int sh_exit(char **args) { return 0; }
